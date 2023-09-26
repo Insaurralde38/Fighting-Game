@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fighting Game</title>
+    <link rel="icon" href="./assets/icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="upper-elements">
+        <div class="player-bar">
+          <div class="player-health"></div>
+          <div id="playerHealth" class="player-hurt"></div>
+        </div>
+          <div id="timer" class="timer">10</div>
+        <div class="enemy-bar">
+          <div class="enemy-health"></div>
+          <div id="enemyHealth" class="enemy-hurt"></div>
+        </div>
+      </div>
+      <div id="displayText" class="message"></div>
+      <canvas></canvas>
+    </div>
+    <!-- javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="components/utils.js"></script>
+    <script src="components/classes.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
