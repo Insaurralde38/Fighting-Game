@@ -12,21 +12,29 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="upper-elements">
-        <div class="player-bar">
-          <div class="player-health"></div>
-          <div id="playerHealth" class="player-hurt"></div>
+    <div class="screen">
+      <div class="container">
+        <div class="upper-elements">
+          <div class="player-bar">
+            <div class="player-health"></div>
+            <div id="playerHealth" class="player-hurt"></div>
+          </div>
+            <div id="timer" class="timer">10</div>
+          <div class="enemy-bar">
+            <div class="enemy-health"></div>
+            <div id="enemyHealth" class="enemy-hurt"></div>
+          </div>
         </div>
-          <div id="timer" class="timer">10</div>
-        <div class="enemy-bar">
-          <div class="enemy-health"></div>
-          <div id="enemyHealth" class="enemy-hurt"></div>
-        </div>
+        <div id="displayText" class="message"></div>
+        <canvas></canvas>
       </div>
-      <div id="displayText" class="message"></div>
-      <canvas></canvas>
     </div>
+    <footer>
+      <div></div>
+      <div>
+        Made with<img class="heart" alt="heart" src="./assets/boke-heart.png" >by&nbsp;<a href="https://insaurralde.vercel.app/" target="_blank" rel="noreferrer" ><span class="author">DIEGO INSAURRALDE</span><img class="chimp" alt="chimp" src="./assets/boke-chimp.png" ></a>
+      </div>
+    </footer>
     <!-- javascript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="components/utils.js"></script>
