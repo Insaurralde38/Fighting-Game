@@ -68,6 +68,6 @@ Sigue estos pasos para ejecutar el proyecto de manera local:
 
 <div align="end">
 
-Hecho con <img src="./assets/boke-heart.png" alt="corazón" height="14" width="16" style="margin: 0px 0px -2.5px 0px" > por [**DIEGO INSAURRALDE**](https://insaurralde.vercel.app/) <img src="./assets/boke-chimp.png" alt="chimpance" height="21" width="21" style="margin: 0px 0px -4px 0px" >
+Hecho con <img src="./assets/boke-heart.png" alt="heart" height="14" width="16" style="margin: 0px 0px -2.5px 0px" > por [**DIEGO INSAURRALDE**](https://insaurralde.vercel.app/) <img src="./assets/boke-chimp.png" alt="chimp" height="21" width="21" style="margin: 0px 0px -4px 0px" >
 
 </div>
